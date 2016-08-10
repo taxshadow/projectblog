@@ -510,6 +510,7 @@ return array(
     'SebastianBergmann\\RecursionContext\\Exception' => $vendorDir . '/sebastian/recursion-context/src/Exception.php',
     'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => $vendorDir . '/sebastian/recursion-context/src/InvalidArgumentException.php',
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
+    'TabelArtikel' => $baseDir . '/database/migrations/2016_08_10_045144_tabel_artikel.php',
     'TabelGrup' => $baseDir . '/database/migrations/2016_08_10_040822_tabel_grup.php',
     'TabelKategori' => $baseDir . '/database/migrations/2016_08_10_031755_tabel_kategori.php',
     'TabelUser' => $baseDir . '/database/migrations/2016_08_10_040530_tabel_user.php',
