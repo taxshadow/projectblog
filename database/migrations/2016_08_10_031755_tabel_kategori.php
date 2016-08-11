@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class TabelGrup extends Migration
+class TabelKategori extends Migration
 {
     /**
      * Run the migrations.
@@ -12,9 +12,10 @@ class TabelGrup extends Migration
      */
     public function up()
     {
-        Schema::create('grup', function (Blueprint $table) {
-            $table->increments('grup_id');
-            $table->string('nama_grup');
+        Schema::create('kategori', function (Blueprint $table) {
+            $table->increments('kategori_id');
+            $table->string('nama_kat');
+            $table->integer('parent_id');
         });
     }
 
