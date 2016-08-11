@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class TabelKategori extends Migration
+class TambahIndexParentIdTabelKategori extends Migration
 {
     /**
      * Run the migrations.
@@ -12,10 +12,8 @@ class TabelKategori extends Migration
      */
     public function up()
     {
-        Schema::create('kategori', function (Blueprint $table) {
-            $table->increments('kategori_id');
-            $table->string('nama_kategori');
-            $table->integer('parent_id');
+        Schema::table('kategori', function (Blueprint $table) {
+            $table->index(['parent_id']);
         });
     }
 
@@ -26,6 +24,6 @@ class TabelKategori extends Migration
      */
     public function down()
     {
-        Schema::drop('kategori');
+        //
     }
 }
