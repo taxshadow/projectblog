@@ -25,6 +25,6 @@ class TabelGrup extends Migration
      */
     public function down()
     {
-        Schema::drop('grup');
+        
     }
 }

@@ -31,6 +31,6 @@ class TabelArtikel extends Migration
      */
     public function down()
     {
-        Schema::drop('artikel');
+        
     }
 }

@@ -14,7 +14,7 @@ class TabelKategori extends Migration
     {
         Schema::create('kategori', function (Blueprint $table) {
             $table->increments('kategori_id');
-            $table->string('Nama_Kat');
+            $table->string('nama_kat');
             $table->integer('parent_id');
         });
     }
@@ -26,6 +26,6 @@ class TabelKategori extends Migration
      */
     public function down()
     {
-        Schema::drop('kategori');
+        
     }
 }

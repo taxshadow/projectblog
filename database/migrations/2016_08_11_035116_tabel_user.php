@@ -15,11 +15,11 @@ class TabelUser extends Migration
         Schema::create('user', function (Blueprint $table) {
             $table->increments('user_id');
             $table->integer('grup_id')->unsigned();
-            $table->foreign('grup_id')->references('user_id')->on('grup');
             $table->string('nama');
             $table->string('username');
             $table->string('password');
             $table->string('email');
+            $table->foreign('grup_id')->references('grup_id')->on('grup');
         });
     }
 
@@ -30,6 +30,6 @@ class TabelUser extends Migration
      */
     public function down()
     {
-        Schema::drop('user');
+        
     }
 }
