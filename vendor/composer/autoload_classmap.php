@@ -510,10 +510,14 @@ return array(
     'SebastianBergmann\\RecursionContext\\Exception' => $vendorDir . '/sebastian/recursion-context/src/Exception.php',
     'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => $vendorDir . '/sebastian/recursion-context/src/InvalidArgumentException.php',
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
+<<<<<<< HEAD
     'TabelArtikel' => $baseDir . '/database/migrations/2016_08_10_045144_tabel_artikel.php',
     'TabelGrup' => $baseDir . '/database/migrations/2016_08_10_040822_tabel_grup.php',
     'TabelKategori' => $baseDir . '/database/migrations/2016_08_10_031755_tabel_kategori.php',
     'TabelUser' => $baseDir . '/database/migrations/2016_08_11_035116_tabel_user.php',
+=======
+    'TabelGrup' => $baseDir . '/database/migrations/2016_08_11_034930_tabel_grup.php',
+>>>>>>> 8448e4a43419dd4c7d722a2c1f7dffe1aa2255d6
     'TestCase' => $baseDir . '/tests/TestCase.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
 );

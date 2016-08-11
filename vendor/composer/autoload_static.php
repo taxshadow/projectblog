@@ -768,10 +768,14 @@ class ComposerStaticInit0e2b674eee69497ecad2bc3b6f27f81b
         'SebastianBergmann\\RecursionContext\\Exception' => __DIR__ . '/..' . '/sebastian/recursion-context/src/Exception.php',
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+<<<<<<< HEAD
         'TabelArtikel' => __DIR__ . '/../..' . '/database/migrations/2016_08_10_045144_tabel_artikel.php',
         'TabelGrup' => __DIR__ . '/../..' . '/database/migrations/2016_08_10_040822_tabel_grup.php',
         'TabelKategori' => __DIR__ . '/../..' . '/database/migrations/2016_08_10_031755_tabel_kategori.php',
         'TabelUser' => __DIR__ . '/../..' . '/database/migrations/2016_08_11_035116_tabel_user.php',
+=======
+        'TabelGrup' => __DIR__ . '/../..' . '/database/migrations/2016_08_11_034930_tabel_grup.php',
+>>>>>>> 8448e4a43419dd4c7d722a2c1f7dffe1aa2255d6
         'TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
     );
