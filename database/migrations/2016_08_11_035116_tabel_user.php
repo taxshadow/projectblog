@@ -20,6 +20,10 @@ class TabelUser extends Migration
             $table->string('password');
             $table->string('email');
         });
+
+        Schema::table('user', function ($table){
+            $table->interger
+        })
     }
 
     /**
