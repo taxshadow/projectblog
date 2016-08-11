@@ -13,7 +13,7 @@ class TabelGrup extends Migration
     public function up()
     {
         Schema::create('grup', function (Blueprint $table) {
-            $table->increments('grup_id');
+            $table->increments('id_grup');
             $table->string('nama_grup');
         });
     }
