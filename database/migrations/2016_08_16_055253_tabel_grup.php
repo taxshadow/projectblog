@@ -15,6 +15,7 @@ class TabelGrup extends Migration
         Schema::create('grup', function (Blueprint $table) {
             $table->increments('grup_id');
             $table->string('nama_grup');
+            $table->timestamps();
         });
     }
 

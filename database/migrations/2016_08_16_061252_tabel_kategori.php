@@ -16,6 +16,7 @@ class TabelKategori extends Migration
             $table->increments('kategori_id');
             $table->string('nama_kat');
             $table->integer('parent_id');
+            $table->timestamps();
         });
     }
 
@@ -26,6 +27,6 @@ class TabelKategori extends Migration
      */
     public function down()
     {
-        
+        Schema::drop('kategori');
     }
 }
